@@ -1,0 +1,38 @@
+{
+  "name": "sub-svelte",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv dist --host",
+    "validate": "svelte-check"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^4.5.9",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "@tsconfig/svelte": "^1.0.10",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.1",
+    "rollup": "^2.36.1",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.32.6",
+    "sirv-cli": "^1.0.10",
+    "svelte": "^3.31.2",
+    "svelte-check": "^1.1.26",
+    "svelte-preprocess": "^4.6.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}
